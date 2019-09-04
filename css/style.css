@@ -127,4 +127,163 @@ section {
   font-size: 18px;
 }
 
-/********SLID*/
+/********ANIMATION*/
+.part {
+  display: inline-block;
+}
+.present .graph .block_1{
+  
+  animation: gr_1;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes gr_1{
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 5px;
+  }
+}
+
+.present .image_show{
+  animation-name: show_im;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes show_im{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+/****************/
+.present .graph .block_2{
+  
+  animation: gr_2;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes gr_2{
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 18px;
+  }
+}
+
+.present .move{
+  position: absolute;
+  left: 70.5%;
+  top:10%;
+  opacity: 1;
+  animation-name: move_block;
+  animation-duration:  0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+
+}
+
+@keyframes move_block{
+  0%{
+    left: 70.5%;
+    opacity: 1;
+  }
+  75%{
+    left: 65.5%;
+    opacity: 0.5;
+  }
+  50%{
+    left: 60%;
+    opacity: 0.3;
+  }
+  75%{
+    left: 55%;
+    opacity: 0.1;
+  }
+  100%{
+    left: 50%;
+    opacity: 0;
+  }
+
+}
+.present .hide{
+  animation-name: hide_block;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes hide_block{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/******************/
+.present .graph .block_3{
+  
+  animation: gr_3;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes gr_3{
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 30px;
+  }
+}
+
+
+/******************/
+.present .graph .block_4{
+  
+  animation: gr_4;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes gr_4{
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 105px;
+  }
+}
+
+/*****************/
+.present .graph .block_5{
+  
+  animation: gr_5;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes gr_5{
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 450px;
+  }
+}
