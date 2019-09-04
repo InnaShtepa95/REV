@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'calibri';
+    src: url('../fonts/calibri.eot');
+    src: url('../fonts/calibri.eot') format('embedded-opentype'),
+         url('../fonts/calibri.woff2') format('woff2'),
+         url('../fonts/calibri.woff') format('woff'),
+         url('../fonts/calibri.ttf') format('truetype'),
+         url('../fonts/calibri.svg#calibri') format('svg');
+}
+
+body{
+    background: linear-gradient(#00A4E0 , #04435A)!important;
+}
+
+section {
+    top: 0% !important;
+    font-family: 'calibri'!important;
+  }
+  
+  .slide_title {
+   margin-top: 50px;
+    text-align: center;
+
+  }
+  
+  .slide_title p {
+    font-size: 25px;
+    font-family: sans-serif;
+   margin: auto;
+    text-align: center;
+    width: 100%
+  }
+  
+  .slide_content {
+    padding-top: 30px;
+    text-align: left;
+  }
+  
+  .slide_content p {
+    text-align: center;
+    margin: 0 !important;
+    
+  }
+  
+  .slide_content span {
+    font-size: 25px;
+  }
+  
+  .slide_content img {
+    margin: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    max-height: none !important;
+  }
+  
+  .slide_content .columns {
+  text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .slide_content .columns .column_item {
+
+    width: 32%;
+  }
+  
+  .slide_content ul {
+    font-size: 25px;
+  }
+  
+/****************************************/
+/*********SLIDE *************/
+.slide_1 .author{
+    position: absolute;
+    top:10px;
+    right: 0px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: ca
+
+}
+.logo_line {
+    text-align: center;
+    padding: 15px 0;
+    margin-top:200px;
+    width: 100%;
+    height: 170px;
+    background-color: #00000053;
+    
+
+}
+.logo_line img{
+  
+   height: 180px;
+   width: auto;
+}
+
+
+/************SLIDE 2**************/
+.slide_2 .slide_content .text_content{
+    letter-spacing: 2px;
+    padding-top: 17%;
+    font-family: 'calibri';
+    font-size: 45px;
+    text-align: center;
+}
+
+/************SLIDE 3**************/
+.slide_3 .slide_title p{
+  font-style: italic;
+  
+}
+
+.slide_3 .slide_content{
+  padding-top: 120px;
+}
+.slide_2_desc{
+  display: flex;
+  justify-content: stretch;
+  margin-top: 20px;
+  line-height: 45px;
+  padding: 35px 15px;
+  border: solid 2px white;
+  font-size: 18px;
+}
+
+/********SLID*/
